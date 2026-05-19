@@ -46,7 +46,7 @@ const demographicsTrial = {
 // It also saves the Prolific ID and start/end time
 const completionTrial = {
     type: jsPsychSurvey,
-    survey_json: content.finishedContent,
+    survey_json: content.completionContent,
     data: { trial_name: "info", prolific_id: prolificID, start_time: startTime },
     on_finish: function (data) {
         data.end_time = new Date().toLocaleString(); // Record final timestamp
