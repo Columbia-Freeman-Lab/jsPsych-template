@@ -35,7 +35,7 @@ const exampleTrial = {
     data: { trial_name: "press_f" }
 };
 ```
-Note that adding a trial name to the data is not required, but it recommended to make your data more readable and easier to analyze.
+Note that adding a trial name to the data is not required, but is recommended to make your data more readable and easier to analyze.
 
 Then add the trial to the desired position in the timeline at the bottom of `main.js`. It should look something like this:
 ```js
