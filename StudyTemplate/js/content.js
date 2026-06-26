@@ -26,25 +26,24 @@ export const screenerContent = {
 };
 
 export const sampleSurveyContent = {
-  "pages": [
-    {
-      "name": "page1",
-      "title": "Color",
-      "elements": [
+    "title": "Color",
+    "pages": [
         {
-          "type": "text",
-          "name": "question1",
-          "title": "What's your favorite color?"
+            "elements": [
+                {
+                    "type": "text",
+                    "name": "question1",
+                    "title": "What's your favorite color?"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 };
 
 export const demographicsContent = {
+    title: "Demographics",
     pages: [
         {
-            title: "Demographics",
             elements:
                 [
                     {
