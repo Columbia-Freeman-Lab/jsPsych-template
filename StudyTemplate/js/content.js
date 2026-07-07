@@ -22,7 +22,8 @@ export const screenerContent = {
                 choices: ["Democratic", "Republican", "Independent", "Libertarian", "Green Party", "Other"],
                 isRequired: true
             }
-        ]
+        ],
+    completeText: "Continue"
 };
 
 export const sampleSurveyContent = {
@@ -37,7 +38,7 @@ export const sampleSurveyContent = {
                 }
             ]
         }
-    ]
+    ],
 };
 
 export const demographicsContent = {
@@ -88,17 +89,18 @@ export const demographicsContent = {
                     }
                 ]
         }
-    ]
+    ],
+    completeText: "Continue"
 };
 
 export const completionContent = {
     title: "Study Completed",
-    completeText: "Click here to return to Prolific",
     elements:
         [
             {
                 type: "html",
                 html: "<p>Thank you for participating in the study!</p>",
             }
-        ]
+        ],
+    completeText: "Click here to return to Prolific",
 };
