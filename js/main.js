@@ -8,7 +8,7 @@ const startTime = new Date().toLocaleString();
 
 // --- Prolific ID ---
 const urlParams = new URLSearchParams(window.location.search); // Get URL to search for Prolific ID
-const prolificID = urlParams.get("participant_id") || "unknown"; // If no ID in URL, ID will be "unknown"
+const prolificID = urlParams.get("PROLIFIC_PID") || "unknown"; // If no ID in URL, ID will be "unknown"
 
 // --- Trials ---
 const screenerTrial = {
