@@ -2,6 +2,8 @@
 
 This is a template to get you started with creating jsPsych studies for the Freeman Lab. Note that this uses jsPsych version 8.
 
+**To use this template, press the green "Use this template" button in the top right.**
+
 ## Structure
 - `index.html` - Base HTML and script imports
 - `js/main.js` - Trials and timeline
